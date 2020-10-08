@@ -6,7 +6,7 @@ def find_even_values(src)
     
     while second_count < src[first_count].length do 
       
-      if src[first_count] % 2 == 0  
+      if src[first_count][second_count] % 2 == 0  
         p src[first_count][second_count]
       end
       second_count += 1 
